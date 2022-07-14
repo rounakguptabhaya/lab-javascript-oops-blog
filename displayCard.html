@@ -10,21 +10,21 @@
     <nav>
         <img src="/assets/logo.svg" alt="logo" />
         <ul>
-            <li> <a href="/displayCard.html">My Blogs</a></li>
+            <li> <a id="viewBlogs" href="#flashcard">My Blogs</a></li>
             <li> <a href="/displayCard.html">Login</a></li>
             <li> <a href="/displayCard.html">Sign Up</a></li> 
         </ul>
     </nav>
     <div class="body-div1">
         <div>Your Blog Posts</div>
-        <a ><button class="button" id="addBlog" ><i class="fas fa-plus-circle"></i>Add New Post</button></a>  
+        <a ><button class="button" id="addBlog"><i class="fas fa-plus-circle"></i>Add New Post</button></a>  
     </div>
     <div class="body-div2">
         <div class="article-card" id="flashcard">
-            <!-- <img src="./assets/java card image.svg" alt=""> -->
+            <img src="./assets/java card image.svg" alt="">
                 <div class="card-text" id="card-text">
-                    <!-- <h1 id="blog-title">sda</h1> -->
-                    <!-- <p id="blog-description">da</p> -->
+                    <!-- <h1 id="blog-title">heading</h1> -->
+                    <!-- <p id="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ullam magni, rem dolores distinctio sint quisquam, maiores cum beatae impedit eveniet vel quas illo. Ipsam accusamus quod temporibus necessitatibus optio?</p> -->
                     <!-- <p>Posted on</p> -->
                 </div>
                   <!-- <div class="card-buttons">
@@ -40,7 +40,7 @@
             <input type="hidden" name="blogId" value="" /> 
             <input id="title" name="title" value="" placeholder="Title" type="text"/>
             <textarea id="detail" name="message" placeholder="Description" value=""></textarea>
-            <button id="post" type="submit" >POST</button>
+            <a href="#flashcard"><button id="post" type="submit">POST</button></a>
         </div>
     </div>
 </body>

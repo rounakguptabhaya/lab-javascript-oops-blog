@@ -63,7 +63,7 @@ nav ul a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 60px;
+	/* margin-bottom: 60px; */
 }
 
 .article-card {
@@ -92,8 +92,11 @@ nav ul a {
 	margin-top: 30px;
 }
 .body-div2 {
+	/* position: absolute; */
+	visibility: hidden;
 	display: flex;
 	flex-direction: row ;
+	margin: 0 30px 0 30px;
 	/* justify-content: space-between; */
 	float: left;
 }
@@ -126,8 +129,12 @@ img#rect {
 	margin: 41px 0px 0px 18px;
 }
 
-div#popupContact {
+
+
+
+#popupContact {
 	display: none;
+	/* visibility: hidden; */
 	flex-direction: column;
 	position: absolute;
 	left: 45%;
@@ -135,8 +142,9 @@ div#popupContact {
 	margin-left: -400px;
 }
 
+
+
 #card {
-	position: absolute;
 	display: flex;
 	justify-content: flex-center;
 	align-items: center;
