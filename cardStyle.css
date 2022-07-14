@@ -114,7 +114,7 @@ nav ul a {
 
 img#close {
 	position: absolute;
-	right: -910px;
+	right: 15px;
 	margin: 13px 0px 0px 19px;
 	cursor: pointer;
 	z-index: 9;
